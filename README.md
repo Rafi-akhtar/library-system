@@ -1,1 +1,34 @@
-# library-system
+# 📚 Library System & Digital Academic (Laravel)
+
+Project aplikasi web perpustakaan digital dan sistem akademik berbasis Laravel untuk mengelola katalog buku, peminjaman, serta manajemen data anggota secara profesional.
+
+---
+
+## 📸 Tampilan Antarmuka (Screenshots)
+
+### 1. Halaman Katalog (Sebelum Login / Guest)
+Pengguna dapat menjelajahi katalog buku perpustakaan secara publik sebelum melakukan peminjaman.
+
+### 2. Dashboard Admin (Setelah Login)
+Admin memiliki akses penuh untuk mengelola buku, sirkulasi peminjaman, data anggota, hingga laporan perpustakaan.
+
+---
+
+## ✨ Fitur Utama
+* **Katalog & Peminjaman Buku**: Menampilkan daftar buku lengkap dengan informasi stok yang tersedia.
+* **Manajemen Wishlist**: Pengguna dapat menyimpan daftar buku favorit.
+* **Menu Admin / Pengelolaan**:
+  * Kelola Buku (Tambah, Edit, Hapus data buku)
+  * Sirkulasi Peminjaman Buku
+  * Manajemen Anggota
+  * Laporan Perpustakaan
+
+---
+
+## ⚙️ Cara Instalasi & Menjalankan Project
+
+Bagi yang ingin mencoba menjalankan project ini secara lokal, ikuti langkah-langkah berikut di terminal/command prompt:
+
+1. **Clone repository ini:**
+   ```bash
+   git clone [https://github.com/Rafi-akhtar/library-system.git](https://github.com/Rafi-akhtar/library-system.git)
