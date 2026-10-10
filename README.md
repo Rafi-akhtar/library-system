@@ -50,8 +50,8 @@ Bagi yang ingin mencoba menjalankan project ini secara lokal, ikuti langkah-lang
    php artisan key:generate
 
 6. **Konfigurasi Database:**
-​   * Buat database baru di MySQL / Laragon.
-​   * Sesuaikan pengaturan database (DB_DATABASE, DB_USERNAME, DB_PASSWORD) di dalam file .env
+​   * Buat database baru di MySQL / Laragon.*
+​   * Sesuaikan pengaturan database (DB_DATABASE, DB_USERNAME, DB_PASSWORD) di dalam file .env*
 
 7. **Jalankan migrasi / import database:**
     ```bash
