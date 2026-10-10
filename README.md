@@ -32,3 +32,23 @@ Bagi yang ingin mencoba menjalankan project ini secara lokal, ikuti langkah-lang
 1. **Clone repository ini:**
    ```bash
    git clone [https://github.com/Rafi-akhtar/library-system.git](https://github.com/Rafi-akhtar/library-system.git)
+
+2. **Masuk ke direktori:**
+    ```bash
+    cd library-system
+    
+3. **Install dependencies PHP (Composer):**
+   ```bash
+   composer install
+
+4. **Duplikat file konfigurasi environment:**
+    ```bash
+    cp .env.example .env
+
+5. **Generate application key:**
+   ```bash
+   php artisan key:generate
+
+6. **Konfigurasi Database:**
+​    Buat database baru di MySQL / Laragon.
+​    Sesuaikan pengaturan database (DB_DATABASE, DB_USERNAME, DB_PASSWORD) di dalam file .env
